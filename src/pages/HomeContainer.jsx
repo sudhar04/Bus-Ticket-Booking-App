@@ -1,8 +1,8 @@
 import React from 'react'
-import Hero from './Hero'
-import Search from './Search'
-import Category from './Category'
-import Offer from './Offer'
+import Hero from './Hero.jsx'
+import Search from './Search.jsx'
+import Category from './Category.jsx'
+import Offer from './Offer.jsx'
 
 const HomeContainer = () => {
   return (
