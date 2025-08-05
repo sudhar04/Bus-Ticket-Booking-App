@@ -2,6 +2,11 @@
   command = "npm run build"
   publish = "build"
 
-[context.production.environment]
-  NODE_VERSION = "18"
-  NPM_VERSION = "9"
+[build.environment]
+  NODE_VERSION = "18.18.0"
+  NPM_VERSION = "9.8.1"
+  CI = "false"
+
+
+[functions]
+  directory = "netlify/functions"
