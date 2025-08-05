@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomeContainer from './pages/HomeContainer.jsx';
-import Bus from './pages/Bus';
-import Detail from './pages/Detail';
-import Checkout from './pages/Checkout';
+import Bus from './pages/Bus.jsx';
+import Detail from './pages/Detail.jsx';
+import Checkout from './pages/Checkout.jsx';
 
 function App() {
 
