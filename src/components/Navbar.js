@@ -72,6 +72,10 @@ const Navbar = () => {
                         <p className="text-xs font-light">Need Help?</p>
                         <p className="text-sm font-medium">+91-9283746510</p>
                     </div>
+                    {/* Mobile theme button – shows only on small screens */}
+                    <div className="md:hidden mt-3 flex justify-center">
+                      <Theme />
+                    </div>
                     
                     {/* Floating Help Button – Top Right for Desktop */}
                     <div className="hidden lg:flex fixed top-4 right-4 z-50 items-center gap-3">
