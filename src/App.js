@@ -22,6 +22,7 @@ function App() {
             <Route path='/bus' element={<Bus />} />
             <Route path='/bus/bus-details' element={<Detail />} />
             <Route path='/bus/bus-details/checkout' element={<Checkout />} />
+            
           </Routes>
 
           {/* Footer */}

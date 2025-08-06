@@ -55,5 +55,14 @@ code {
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
+  background-color: #000;
     
+}
+
+@media (max-width: 640px) {
+  .hero {
+    background-position: center center;
+    background-size: cover;
+    background-color: #000;
+  }
 }

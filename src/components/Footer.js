@@ -7,18 +7,18 @@ import Logo from "../assets/logo.png";
 const Footer = () => {
   return (
     <footer className="w-full lg:px-28 md:px-16 sm:px-7 px-4 py-8 bg-neutral-200/60 dark:bg-neutral-900/70">
-      <div className="grid grid-cols-5 gap-5">
-        <div className="space-y-5 col-span-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="space-y-5 col-span-2 mb-8 lg:mb-0">
           <Link to="/" className='text-xl text-neutral-800 dark:text-neutral-200 font-bold'>
             <img src={Logo} alt="logo" className="w-44 h-auto object-contain" />
           </Link>
-          <p className="text-neutral-600 dark:text-neutral-500 text-base font-normal pr-10">
+          <p className="text-neutral-600 dark:text-neutral-500 text-base font-normal pr-0 lg:pr-10">
             RS Bus is a leading bus service provider committed to delivering safe, comfortable, and reliable travel experiences across South India. With a focus on punctuality, customer satisfaction, and modern technology, RS Bus connects major cities with a seamless booking and travel experience.
           </p>
         </div>
 
-        <div className="space-y-7">
-          <h1 className="text-lg font-medium">About Us</h1>
+        <div className="space-y-7 mb-8 lg:mb-0">
+          <h1 className="text-lg font-medium text-center sm:text-left">About Us</h1>
           <ul className="space-y-2 text-neutral-600 dark:text-neutral-500 text-base font-normal">
             <li>
               <Link to="#" className='hover:text-violet-600 ease-in-out duration-300'>About Us</Link>
@@ -35,8 +35,8 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="space-y-7">
-          <h1 className="text-lg font-medium">Services</h1>
+        <div className="space-y-7 mb-8 lg:mb-0">
+          <h1 className="text-lg font-medium text-center sm:text-left">Services</h1>
           <ul className="space-y-2 text-neutral-600 dark:text-neutral-500 text-base font-normal">
             <li>
               <Link to="#" className='hover:text-violet-600 ease-in-out duration-300'>Safety Guarantee</Link>
@@ -53,10 +53,10 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="space-y-7">
-          <h1 className="text-lg font-medium">Get In Touch</h1>
+        <div className="space-y-7 mb-8 lg:mb-0">
+          <h1 className="text-lg font-medium text-center sm:text-left">Get In Touch</h1>
           <div className="space-y-4">
-            <div className="flex gap-x-2">
+            <div className="flex gap-x-2 flex-col sm:flex-row text-center sm:text-left">
               <FaMapPin className='text-2xl text-neutral-600 dark:text-neutral-500' />
               <div className="flex flex-col">
                 <p className="text-xs text-neutral-600 dark:text-neutral-500">
@@ -68,7 +68,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex gap-x-2">
+            <div className="flex gap-x-2 flex-col sm:flex-row text-center sm:text-left">
               <FaMapPin className='text-2xl text-neutral-600 dark:text-neutral-500' />
               <div className="flex flex-col">
                 <p className="text-xs text-neutral-600 dark:text-neutral-500">
@@ -80,7 +80,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex gap-x-2">
+            <div className="flex gap-x-2 flex-col sm:flex-row text-center sm:text-left">
               <FaMapPin className='text-2xl text-neutral-600 dark:text-neutral-500' />
               <div className="flex flex-col">
                 <p className="text-xs text-neutral-600 dark:text-neutral-500">

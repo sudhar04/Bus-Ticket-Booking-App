@@ -53,7 +53,7 @@ const calculateArriveAtTime = (departureTime) => {
             !departBus
             ?
             (
-                <div className='w-full grid grid-cols-2 gap-10'>
+                <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10'>
                     <div className="">
                         <label htmlFor="departbus" className="block mb-2 font-semibold">
                             Depart Time
@@ -73,7 +73,7 @@ const calculateArriveAtTime = (departureTime) => {
             :
             (
                 <div className='space-y-5'>
-                    <div className="w-full flex items-center gap-x-3">
+                    <div className="w-full flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-x-3">
                         <div className="w-fit text-base font-semibold">
                             Bus Depart at:- <span className="ml-1.5 font-medium">{departBus}</span>
                         </div>

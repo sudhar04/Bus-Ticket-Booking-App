@@ -9,9 +9,9 @@ import Seat from '../components/Seat';
 const Detail = () => {
   return (
     <div className='w-full lg:px-28 md:px-16 sm:px-7 px-4 mt-[13ch] mb-[10ch]'>
-        <div className="w-full grid grid-cols-2 gap-16 items-center">
-            <div className="col-span-1 space-y-8">
-                <img src={Bus} alt="detail img" className="w-full aspect-[3/2] rounded-md object-contain" />
+        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div className="space-y-8">
+                <img src={Bus} alt="detail img" className="w-full max-h-[300px] object-contain rounded-md" />
                 <div className="space-y-4">
                     <h1 className="text-4xl font-bold text-neutral-900 dark:text-neutral-50">
                         Luxury Bus
@@ -39,7 +39,7 @@ const Detail = () => {
                     </p>
                 </div>
             </div>
-            <div className="col-span-1 space-y-10">
+            <div className="space-y-10">
                 <div className="space-y-6">
 
                     <Destination  />

@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Search = () => {
   return (
-    <div  className='w-full lg:px-28 md:px-16 sm:px-7 px-4 my-[8ch]'>
+    <div  className='w-full lg:px-28 md:px-16 sm:px-7 px-4 my-[6ch] sm:my-[8ch]'>
         <div className=' w-full bg-neutral-100 rounded-md dark:bg-neutral-900/40 p-8'>
-            <div className="grid grid-cols-3 gap-x-10 gap-y-12 items-end">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 items-end">
                 <div className="">
                     <label htmlFor="from" className="block mb-2 font-semibold">
                         From

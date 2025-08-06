@@ -6,13 +6,13 @@ import Offer from './Offer.jsx'
 
 const HomeContainer = () => {
   return (
-    <>
-        {/* HomeContainer */}
+    <main className="w-full overflow-x-hidden">
+       
         <Hero />
         <Search />
         <Category />
         <Offer />
-    </>
+    </main>
   )
 }
 

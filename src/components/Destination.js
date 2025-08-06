@@ -33,7 +33,7 @@ const Destination = () => {
             !isDestinationSelected
             ?
             (
-                <div className='w-full grid grid-cols-2 gap-10'>
+                <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10'>
                     <div className="">
                         <label htmlFor="from" className="block mb-2 font-semibold">
                             From
@@ -68,10 +68,10 @@ const Destination = () => {
             :
             (
                 <div className='space-y-5'>
-                    <h1 className="text-xl text-neutral-800 dark:text-neutral-100 font-medium">
+                    <h1 className="text-xl text-neutral-800 dark:text-neutral-100 font-medium text-center sm:text-left">
                         Your Destination
                     </h1>
-                    <div className="w-full flex items-center gap-x-3">
+                    <div className="w-full flex flex-col sm:flex-row items-start sm:items-center gap-3">
                         <div className="w-fit text-base font-semibold">
                             From:- <span className="ml-1.5 font-medium">{from}</span>
                         </div>

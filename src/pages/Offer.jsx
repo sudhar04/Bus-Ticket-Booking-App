@@ -12,7 +12,7 @@ const Offer = () => {
         .then(() => {
             setCopied(true);
             setTimeout(() => {
-                setCopied(true)
+                setCopied(false)
             }, 2000);
         })
         .catch((err) => {
@@ -29,9 +29,9 @@ const Offer = () => {
             <Link to={"/offer"} className="text-violet-600">view all</Link>
         </div>
 
-        <div className="grid grid-cols-2 gap-16">
-            <div className="w-full h-auto rounded-xl bg-zinc-200/30 dark:bg-zinc-800/20 p-8 flex items-center gap-x-3 shadow-md">
-                <img src={Save} alt='save img' className="w-52 aspect-[2/1] object-contain object-center" /> 
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-10 md:gap-16">
+            <div className="w-full h-auto rounded-xl bg-zinc-200/30 dark:bg-zinc-800/20 p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-5 shadow-md">
+                <img src={Save} alt='save img' className="w-32 sm:w-40 md:w-52 aspect-[2/1] object-contain object-center" /> 
                 <div className="flex flex-1 flex-col space-y-5">
                     <h1 className="text-xl font-semibold text-neutral-800 dark:text-neutral-50">
                        Get 40% OFF 
@@ -59,8 +59,8 @@ const Offer = () => {
             </div>
 
 
-             <div className="w-full h-auto rounded-xl bg-zinc-200/30 dark:bg-zinc-800/20 p-8 flex items-center gap-x-3 shadow-md">
-                <img src={Save} alt='save img' className="w-52 aspect-[2/1] object-contain object-center" /> 
+             <div className="w-full h-auto rounded-xl bg-zinc-200/30 dark:bg-zinc-800/20 p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-5 shadow-md">
+                <img src={Save} alt='save img' className="w-32 sm:w-40 md:w-52 aspect-[2/1] object-contain object-center" /> 
                 <div className="flex flex-1 flex-col space-y-5">
                     <h1 className="text-xl font-semibold text-neutral-800 dark:text-neutral-50">
                        Get 40% OFF 

@@ -23,8 +23,8 @@ const Checkout = () => {
   return (
     <div  className='w-full lg:px-28 md:px-16 sm:px-7 px-4 mt-[13ch] mb-[8ch] space-y-10'>
         {showConfetti && <Confetti />}
-        <div className="grid grid-cols-5 gap-16 items-start">
-            <div className="col-span-3 space-y-7 pr-20">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16 items-start">
+            <div className="lg:col-span-3 space-y-7 lg:pr-20">
                 <h2 className="text-xl text-neutral-800 dark:text-neutral-100 font-medium">
                     Passenger Information
                 </h2>
@@ -61,7 +61,7 @@ const Checkout = () => {
                 </form>
             </div>
 
-            <div className="col-span-2 space-y-8">
+            <div className="lg:col-span-2 space-y-8">
                 <div className="bg-neutral-200/50 dark:bg-neutral-900/70 rounded-md py-5 px-7">
                     <h2 className="text-xl text-center text-neutral-800 dark:text-neutral-100 font-medium border-b-2 border-neutral-200 dark:border-neutral-800/40 pb-3 mb-4">
                         Your Booking Status
