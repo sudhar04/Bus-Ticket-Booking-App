@@ -75,7 +75,7 @@ const Footer = () => {
                   For Support & Reservations
                 </p>
                 <p className="text-sm text-neutral-700 dark:text-neutral-400">
-                  123, Main Street, Ktown, TAMILNADU
+                  18, Main Street, Ktown, TAMILNADU
                 </p>
               </div>
             </div>
